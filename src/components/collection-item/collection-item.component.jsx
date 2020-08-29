@@ -11,7 +11,7 @@ const CollectionItem = ({id,name,imageUrl, price}) => (
         }}>
             <div className="">Add to cart button</div>
         </div>
-         <div class="collection-footer">   
+         <div className="collection-footer">   
          <span className ="name"> {name}</span>
          <span className= "price">{price}</span>
 
